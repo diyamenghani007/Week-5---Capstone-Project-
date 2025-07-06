@@ -42,8 +42,12 @@ Price = BasePrice * (1 + lambda * NormalizedDemand)
 Where, NormalizedDemand = f(occupancy/capacity, queue length, traffic, special day, vehicle weight)
 
 -Base Price = $10
+
 -Price is clamped between $5 and $15
+
 -Demand normalized between 0 and 1
+
+
 
 #### Architecture Diagram
 
